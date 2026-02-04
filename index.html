@@ -139,6 +139,43 @@
 .contacts a:hover {
   text-decoration: underline;
 }
+        /* --- ПРОЕКТЫ --- */
+
+.projects {
+  margin-top: 20px;
+}
+
+.project-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
+  background: #fafafa;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  text-decoration: none;
+  background: #4a90e2;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.project-links a:hover {
+  background: #357abd;
+}
     </style>
 </head>
 <body>
@@ -162,6 +199,21 @@
   <li>Работа с GitHub Pages (публикация сайта)</li>
   <li>Редактирование кода и commit изменений</li>
 </ul>
+    <h2>Мои проекты</h2>
+
+<div class="projects">
+
+  <div class="project-card">
+    <h3>Сайт-визитка</h3>
+    <p>Мой первый адаптивный сайт на HTML и CSS.</p>
+
+    <div class="project-links">
+      <a href="https://alinakhafizova-web.github.io/" target="_blank">Открыть сайт</a>
+      <a href="https://github.com/alinakhafizova-web/alinakhafizova-web.github.io" target="_blank">Код на GitHub</a>
+    </div>
+  </div>
+
+</div>
     <button class="contact-btn" onclick="toggleContacts()">
   Связаться со мной
 </button>
